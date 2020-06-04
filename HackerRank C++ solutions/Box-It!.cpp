@@ -57,7 +57,7 @@ class Box
     long long CalculateVolume()
     {
         long long volume;
-        volume = (this->l)*(this->b)*(this->h);
+        volume = (long long)(this->l)*(this->b)*(this->h);
         return volume;
     }
 
